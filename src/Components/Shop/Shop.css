@@ -1,0 +1,32 @@
+.ema-jhon-shop {
+  padding: 0 0 0 112px;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.shop-container {
+  padding: 120px 80px 120px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 45px;
+}
+.cart-container {
+  background: rgba(255, 153, 0, 0.3);
+  padding: 16px;
+}
+.pagination {
+  margin-bottom: 50px;
+}
+.pagination button {
+  background: rgba(255, 153, 0, 0.3);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin: 1px;
+  font-size: 21px;
+}
+.pagination button:hover {
+  background: rgba(255, 153, 0, 0.5);
+}
+.pagination .selected {
+  background: rgba(255, 153, 0, 0.5);
+}

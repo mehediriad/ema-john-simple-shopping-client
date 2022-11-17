@@ -1,0 +1,42 @@
+.single-order-item-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 5px;
+  width: 100%;
+}
+.single-order-item-info {
+  display: flex;
+}
+.single-order-item-info small {
+  font-size: 12px;
+}
+.orange-color {
+  color: orange;
+}
+.single-order-item-info h6,
+p,
+small {
+  margin: 0;
+}
+.order-item-img {
+  width: 80px;
+  margin-right: 8px;
+}
+.order-item-img img {
+  width: 100%;
+}
+.order-delete-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order-delete-btn button {
+  border: none;
+  cursor: pointer;
+  background-color: rgba(255, 153, 0, 0.3);
+  color: #eb5757;
+  padding: 10px;
+  border-radius: 50%;
+}

@@ -1,0 +1,21 @@
+.notFound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.continue-btn {
+  background-color: #ffe0b3;
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+}
+.notFoundImg {
+  width: 30vw;
+}
+.notFoundImg img {
+  width: 100%;
+}

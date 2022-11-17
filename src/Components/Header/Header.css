@@ -1,0 +1,22 @@
+.ema-john-navbar {
+  height: 80px;
+  background: #1c2b35;
+  padding: 0 112px 0 112px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ema-john-navigation a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #ffffff;
+  margin-left: 32px;
+}
+.logout-btn {
+  background-color: #ffe0b3;
+  border: none;
+  margin-left: 10px;
+  padding: 6px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}

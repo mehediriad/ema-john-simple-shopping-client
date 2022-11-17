@@ -1,0 +1,35 @@
+.product-thamnail {
+  padding: 7px;
+}
+.product-thamnail img {
+  width: 100%;
+}
+.ema-john-product {
+  border: 2px solid #2a414f;
+  padding-bottom: 0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.product-details h3,
+p {
+  margin-top: 12px;
+  padding: 0 7px;
+}
+.other-product-details p {
+  margin-bottom: 12px;
+  color: #2a414f;
+  font-size: 12px;
+  padding: 0 7px;
+}
+.add-to-cart {
+}
+.add-to-cart button {
+  background-color: #ffe0b3;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 0 0 8px 8px;
+  cursor: pointer;
+}
